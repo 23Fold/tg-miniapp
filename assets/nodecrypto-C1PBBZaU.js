@@ -1,0 +1,1 @@
+import{c}from"./utils-m3AB7TSM.js";import"./index-DwA7mY_E.js";const y=async n=>{const{content:t,publicKey:r,privateKey:i}=n,o=(void 0)({key:c({uncompressedPrivateKeyHex:i,compressedPublicKeyHex:r}),format:"jwk"}),e=(void 0)("SHA256");return e.write(Buffer.from(t)),e.end(),e.sign(o,"hex")};export{y as signWithApiKey};
